@@ -140,7 +140,7 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/ether_one_blockchain",
+        href: "https://t.me/",
       },
       // {
       //   label: "Announcements",

@@ -46,7 +46,7 @@ const Logo: React.FC<Props> = ({ isPushed, removeNav, togglePush, isDark, href }
         </>
         : (
           <>
-            <LogoIcon className="mobile-icon" />
+            <LogoWithText className="mobile-icon" isDark={isDark} />
             <LogoWithText className="desktop-icon" isDark={isDark} />
           </>
         )}

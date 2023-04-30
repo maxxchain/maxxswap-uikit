@@ -2112,7 +2112,7 @@ var Logo = function (_a) {
             React__default["default"].createElement(Logo$1, { className: "desktop-icon", isDark: isDark }),
             React__default["default"].createElement(Logo$1, { className: "mobile-icon", isDark: isDark }))
         : (React__default["default"].createElement(React__default["default"].Fragment, null,
-            React__default["default"].createElement(Icon$P, { className: "mobile-icon" }),
+            React__default["default"].createElement(Logo$1, { className: "mobile-icon", isDark: isDark }),
             React__default["default"].createElement(Logo$1, { className: "desktop-icon", isDark: isDark })))));
     return (React__default["default"].createElement(Flex, null,
         !removeNav &&

@@ -2099,7 +2099,7 @@ var Logo = function (_a) {
             React.createElement(Logo$1, { className: "desktop-icon", isDark: isDark }),
             React.createElement(Logo$1, { className: "mobile-icon", isDark: isDark }))
         : (React.createElement(React.Fragment, null,
-            React.createElement(Icon$P, { className: "mobile-icon" }),
+            React.createElement(Logo$1, { className: "mobile-icon", isDark: isDark }),
             React.createElement(Logo$1, { className: "desktop-icon", isDark: isDark })))));
     return (React.createElement(Flex, null,
         !removeNav &&

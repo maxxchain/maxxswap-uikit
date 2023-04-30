@@ -2075,12 +2075,9 @@ MenuButton.defaultProps = {
 };
 var templateObject_1$d;
 
-var StyledLink = styled(Link$1)(templateObject_1$c || (templateObject_1$c = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    padding-left: ", ";\n    width: ", ";\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    padding-left: ", ";\n    width: 174px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  \n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    padding-left: ", ";\n    width: ", ";\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    padding-left: ", ";\n    width: 174px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  \n"])), function (_a) {
+var StyledLink = styled(Link$1)(templateObject_1$c || (templateObject_1$c = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    padding-left: ", ";\n    width: 174px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    padding-left: ", ";\n    width: 174px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  \n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    padding-left: ", ";\n    width: 174px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    padding-left: ", ";\n    width: 174px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  \n"])), function (_a) {
     var removeNav = _a.removeNav;
     return (removeNav ? "8px" : "0px");
-}, function (_a) {
-    var removeNav = _a.removeNav;
-    return (removeNav ? "162px" : "32px");
 }, function (_a) {
     var theme = _a.theme;
     return theme.mediaQueries.nav;

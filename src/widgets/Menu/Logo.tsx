@@ -19,7 +19,7 @@ const StyledLink = styled(Link)<{removeNav: boolean | undefined}>`
   align-items: center;
   .mobile-icon {
     padding-left: ${({ removeNav }) => (removeNav ? "8px" : "0px")};
-    width: ${({ removeNav }) => (removeNav ? "162px" : "32px")};
+    width: 174px;
     ${({ theme }) => theme.mediaQueries.nav} {
       display: none;
     }
